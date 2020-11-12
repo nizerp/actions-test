@@ -11,8 +11,8 @@ on:
 
 jobs:
   build:
-
-    runs-on: openjdk:8
+    runs-on: ubuntu-latest
+    container: openjdk:8
 
     steps:
     - uses: actions/checkout@v2
